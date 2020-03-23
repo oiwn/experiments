@@ -1,0 +1,19 @@
+session_name: experiments-code
+windows:
+  - window_name: code
+    focus: true
+    start-directory: ./
+    panes:
+      - shell_command:
+        - workon experiments
+        - nvim
+  - window_name: cmd1
+    start-directory: ./
+    panes:
+      - shell_command:
+        - workon experiments
+  - window_name: cmd2
+    start-directory: ./
+    panes:
+      - shell_command:
+        - workon experiments

@@ -1,0 +1,7 @@
+# dev
+neovim
+mypy
+ipython
+ipdb
+pylint
+flake8
