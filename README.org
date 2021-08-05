@@ -1,0 +1,4 @@
+#+TITLE: Experiments with code and things
+
+* py.py - how to calculate pi if you only have random function which return float value from 0.0 to 0.1?
+* loss_steak.py - exploring if huge loss stakes possible for WildRift

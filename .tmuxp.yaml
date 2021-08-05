@@ -1,19 +1,28 @@
-session_name: experiments-code
+session_name: experiments
+shell_command_before: "conda activate experiments"
+shell_command_after: "sleep 2; clear"
 windows:
   - window_name: code
     focus: true
     start-directory: ./
     panes:
       - shell_command:
-        - workon experiments
         - nvim
-  - window_name: cmd1
+  - window_name: cmd
     start-directory: ./
     panes:
       - shell_command:
-        - workon experiments
-  - window_name: cmd2
+        - ls
+  - window_name: srv
     start-directory: ./
     panes:
       - shell_command:
-        - workon experiments
+        - ls
+  - window_name: files
+    panes:
+      - shell_command:
+        - clear
+  - window_name: notes
+    panes:
+      - shell_command:
+        - emacs README.org
